@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>vue-markdown-editor</title>
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAPzqpLoUSM5DDpljQ4mAS9Zz-s-dCat48",
+      authDomain: "vue-markdown-editor.firebaseapp.com",
+      databaseURL: "https://vue-markdown-editor.firebaseio.com",
+      projectId: "vue-markdown-editor",
+      storageBucket: "",
+      messagingSenderId: "230071602473"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="./build.js"></script>
+</body>
+
+</html>
